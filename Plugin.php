@@ -72,6 +72,9 @@ class Plugin extends PluginBase
 
         // Setters
         $this->registerConsoleCommand('shopahelper:set.attribute', 'BizMark\Shopahelper\Console\Setters\SetAttribute');
+
+        // Cleaners
+        $this->registerConsoleCommand('shopahelper:clean.shopaholic', 'BizMark\Shopahelper\Console\Cleaners\ShopaholicCleaner');
     }
 
     /**
